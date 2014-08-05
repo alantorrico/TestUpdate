@@ -1,0 +1,104 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Rojo"
+            android:textColor="#FFFFFF"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="#a2900000"
+            android:textSize="10pt"
+            android:id="@+id/textViewRojo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Verde"
+            android:textColor="#FFFFFF"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="#c631fe1a"
+            android:textSize="10pt"
+            android:id="@+id/textViewVerde"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Rosado"
+            android:textColor="#fffeff31"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="#2cff00ff"
+            android:textSize="10pt"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Celeste"
+            android:textColor="#FFFFFF"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="#ff00b9ff"
+            android:textSize="10pt"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="#000000">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Contactos"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:textSize="15pt"
+            android:id="@+id/ButtonContactos"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Fila Dos"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:textSize="15pt"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Fila Tres"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:textSize="15pt"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Fila Cuatro"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:textSize="15pt"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Fila Cinco"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:textSize="15pt"/>
+        </LinearLayout>
+</LinearLayout>

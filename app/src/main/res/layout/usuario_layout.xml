@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:padding="15dip"
+        android:gravity="center">
+
+        <TextView
+            android:text="Registro"
+            android:textStyle="bold"
+            android:textColor="#AA0000"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre:"
+            android:gravity="right"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dip"
+            android:id="@+id/textViewUsername" />
+
+        <EditText
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/EditTextNombre" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefono:"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dip"
+            android:id="@+id/textViewPassword" />
+
+        <EditText
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/EditTextTelefono"
+            android:ems="10" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dip"
+        android:layout_marginRight="10dip"
+        android:gravity="right">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agregar"
+            android:id="@+id/ButtonAgregar" />
+
+    </TableRow>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Contactos"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#AA0000"
+            android:gravity="center"/>
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listViewContactos"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</TableLayout>
+

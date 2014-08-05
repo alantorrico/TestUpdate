@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/holo_green_dark">
+
+
+    <TableRow
+        android:gravity="center"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_span="2"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#fff9f6ff"
+            android:text="Bienvenido"
+            android:id="@+id/textViewLogin" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuario:"
+            android:gravity="right"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dip"
+            android:id="@+id/textViewUsername" />
+
+        <EditText
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextUsername" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contrasenia:"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dip"
+            android:id="@+id/textViewPassword" />
+
+        <EditText
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextPassword"
+            android:inputType="textPassword"
+            android:ems="10" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dip"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:text="Ingresar"
+            android:id="@+id/buttonSubmit" />
+
+    </TableRow>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="20dip"
+        android:background="@android:color/holo_orange_dark">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Alan Torrico"
+            android:textSize="40dp"
+
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Cochabamba"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="40dp"
+
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bolivia"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="40dp"
+
+            />
+
+
+    </LinearLayout>
+</TableLayout>
